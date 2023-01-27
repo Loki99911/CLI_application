@@ -1,0 +1,30 @@
+{
+  "name": "cli_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loki99911/CLI_application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loki99911/CLI_application/issues"
+  },
+  "homepage": "https://github.com/Loki99911/CLI_application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
